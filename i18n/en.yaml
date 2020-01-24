@@ -3,9 +3,9 @@
 - id: mainMenu
   translation: "Menu"
 - id: allTags
-  translation: "All Tags"
+  translation: "All Topics"
 - id: tags
-  translation: "Tags"
+  translation: "Index of Topics"
 - id: lastModified
   translation: "Last modified"
 - id: website
