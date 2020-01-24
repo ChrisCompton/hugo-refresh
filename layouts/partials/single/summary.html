@@ -19,6 +19,9 @@
         {{- $imgHeight := 0 -}}
         {{- if .Params.summaryImage -}} 
           {{- $image = .Page.Resources.GetMatch .Params.summaryImage -}}
+        {{- end }}
+
+        {{- if $image -}}
           {{- $imgWidth = $image.Width -}}
           {{- $imgHeight = $image.Height -}}
           {{- .Scratch.Set "image" ($image.Resize "600x") -}}

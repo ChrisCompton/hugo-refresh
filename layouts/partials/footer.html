@@ -3,6 +3,7 @@
     <div class="columns">
       <div class="column">
         <!-- <div class="footer-logo"> -->
+        <a href="/">
             {{- $out_fo  := "footer.svg" -}}
             {{- $img_n   := .Site.Params.footer.logo -}}
             {{- $type    := lower (substr $img_n (sub (len $img_n) 3) (len $img_n)) -}}
@@ -12,6 +13,7 @@
             {{- end -}}
             <img src="{{- $img.Permalink | relURL -}}" alt="">
         <!-- </div> -->
+        </a>
       </div>
       
     <div class="column">
